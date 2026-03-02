@@ -1,6 +1,6 @@
 # ft_printf
 
-*This project has been created as part of the 42 curriculum by [Adın Soyadın].*
+*This project has been created as part of the 42 curriculum by ssarican.*
 
 ## Description
 This project is a custom implementation of the standard C library function `printf`. The goal is to understand **variadic functions** in C (functions that take a variable number of arguments) and to manage formatted output.
