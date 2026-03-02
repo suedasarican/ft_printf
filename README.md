@@ -37,8 +37,9 @@ int main(void)
 ```
 cc main.c libftprintf.a -o my_program
 ```
-Implementation Details
-The Algorithm
+### Implementation Details
+**The Algorithm**
+
 The logic is straightforward and avoids complex buffer management. The core function ft_printf iterates through the format string character by character.
 
 **Iteration:** The main loop checks every character in the string.
@@ -69,7 +70,7 @@ My implementation handles the following format specifiers:
 
 **Resources**
 
-The C Programming Language: For understanding standard library behaviors.
+42 Docs: Community documentation and tips for the 42 project.
 
 Linux Man Pages: man printf and man stdarg to understand va_start, va_arg, and va_copy.
 
